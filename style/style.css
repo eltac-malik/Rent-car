@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box img
+{
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .container{
+        padding: 0 1rem !important;; 
+        margin: 0 auto;
+    }
+    #Info .all .col-lg-6{
+        display: none;
+    }
+
+    #Slayder button{
+        display: none;
+    }
+    #Slayder .carousel-item img{
+        opacity: 0;
+    }
+    #Slayder{
+        background-image: url(http://anpsthemes.com/limorent/demo-1/wp-content/uploads/2017/01/slider3.jpg);
+        background-size: cover;
+        background-position: left;
+    } 
+    #Brends .row .col-lg-2  .box a{
+        width: 50% !important;
+    }
+
+}
